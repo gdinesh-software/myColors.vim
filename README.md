@@ -24,3 +24,25 @@ This is the collection of all my favourite colorschemes in (neo)vim!
 19. [srcery.vim](https://github.com/srcery-colors/srcery-vim)
 20. [xcodedark.vim](https://github.com/arzg/vim-colors-xcode)
 21. [xcodedarkhc.vim](https://github.com/arzg/vim-colors-xcode)
+
+---
+
+The Gruvbox in this collection is very different in LISP,
+To Get the default behaviour remove this code in the colors directory
+
+`
+" LISP {{{
+
+hi! link lispAtomBarSymbol GruvboxGreen
+hi! link lispAtomList GruvboxBlue
+hi! link lispAtomMark GruvboxAqua
+hi! link lispBarSymbol GruvboxRed
+hi! link lispFunc GruvboxBlue
+hi! link lispTodo GruvboxFg1
+hi! link lispVar GruvboxBlue
+hi! link lispAtom GruvboxGreen
+hi! link lispDecl GruvboxRedBold
+
+" }}}
+
+`
