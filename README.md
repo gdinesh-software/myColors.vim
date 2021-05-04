@@ -30,7 +30,9 @@ This is the collection of all my favourite colorschemes in (neo)vim!
 The Gruvbox in this collection is very different in LISP,
 To Get the default behaviour remove this code in the colors directory
 
-`
+```
+{
+
 " LISP {{{
 
 hi! link lispAtomBarSymbol GruvboxGreen
@@ -45,4 +47,6 @@ hi! link lispDecl GruvboxRedBold
 
 " }}}
 
-`
+}
+
+```
