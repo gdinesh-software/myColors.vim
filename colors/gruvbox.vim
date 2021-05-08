@@ -1400,18 +1400,11 @@ hi! link jsonBraces GruvboxFg1
 hi! link jsonString GruvboxFg1
 
 " }}}
-" LISP {{{
 
-hi! link lispAtomBarSymbol GruvboxGreen
-hi! link lispAtomList GruvboxBlue
-hi! link lispAtomMark GruvboxAqua
-hi! link lispBarSymbol GruvboxRed
-hi! link lispFunc GruvboxBlue
-hi! link lispTodo GruvboxFg1
-hi! link lispVar GruvboxBlue
-hi! link lispAtom GruvboxGreen
-hi! link lispDecl GruvboxRedBold
-
+" LISP: {{{
+highlight! link lispAtomMark GruvboxGreen
+highlight! link lispKey GruvboxAqua
+highlight! link lispFunc GruvboxOrange
 " }}}
 
 
